@@ -76,6 +76,7 @@ public class Kalkuklator extends javax.swing.JFrame {
 
         Tampilan.addActionListener(this::TampilanActionPerformed);
 
+        btnClear.setBackground(new java.awt.Color(255, 51, 255));
         btnClear.setText("C");
         btnClear.addActionListener(this::btnClearActionPerformed);
 
